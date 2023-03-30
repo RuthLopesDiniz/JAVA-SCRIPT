@@ -2,16 +2,17 @@
 //escrever a tabuada de 1 a 10 do valor lido.
 
 function tabuada(number) {
-    if (number <= 0 || number > 10) {
+    if (number <1 || number > 10) {
         console.log("Não aceito")
     } else {
         for (let i = 1; i <= 10; i++) {
             let result
-            console.log(' %d * %d = %d', i, number, (result = i*number))
+            //console.log(' %d * %d = %d', i, number, (result = i*number))
+            console.log(`${i} * ${number} = ${i*number}`)
         }
     }
 }
-tabuada(3)
+tabuada(11)
 
 
 
